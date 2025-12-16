@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Music Player</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="player">
+  <h2 id="songTitle">Song Name</h2>
+
+  <audio id="audio"></audio>
+
+  <div class="controls">
+    <button onclick="prevSong()">⏮</button>
+    <button onclick="playPause()">▶️ / ⏸</button>
+    <button onclick="nextSong()">⏭</button>
+  </div>
+
+  <button onclick="likeSong()" id="likeBtn">🤍 Like</button>
+
+  <ul id="songList"></ul>
+</div>
+
+<script src="js/player.js"></script>
+</body>
+</html>
