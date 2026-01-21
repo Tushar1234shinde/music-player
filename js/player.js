@@ -5,8 +5,7 @@ if (!localStorage.getItem("loggedIn")) {
 const songs = [
   { name: "Me rahoo ya na rahoo", src: "assets/songs/song1.mpeg" },
   { name: "Geta govinda bgm", src: "assets/songs/song2.mpeg" },
-  { name: "Airtel phonk🔥", src: "assets/songs/song3.mpeg" }
-  ,
+  { name: "Airtel phonk🔥", src: "assets/songs/song3.mpeg" },
   { name: "Malhari", src: "assets/songs/Malhari-320kbps.mp3" }
   
   
@@ -67,4 +66,5 @@ songs.forEach((song, i) => {
   };
   songList.appendChild(li);
 });
+
 
